@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="new-game__button">
+            <div class="new-game__wrapper">
+                <p class="new-game__text">Новая игра!</p>
+            </div>
+        </div>
+        <div class="header__condition">
+            <p class="header__text">Число между 1 и 20</p>
+        </div>
+    </div>
+    <div class="main-section">
+        <h1 class="main-section__title">Угадай число!</h1>
+        <div class="main-section__number-box main-section__number-box_wrong">
+            <div class="main-section__number-wrapper">
+                <p class="main-section__number">?</p>
+            </div>
+        </div>
+        <div class="data-section">
+            <div class="data-section__input-sectiion">
+                <input class="data-section__input" type="text">
+                <button class="check__button">
+                    <div class="check__wrapper">
+                        <p class="check__text">Проверка!</p>
+                    </div>
+                </button>
+            </div>
+            <p class="data-section__tip"></p>
+            <div class="data-section__data">
+                <p class="data__hits">Осталось попыток:</p>
+                <p class="data__hits-value">20</p>
+                <p class="data__score">Ваш рекорд:</p>
+                <p class="data__score-value">0</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/js.js"></script>
+</html>
